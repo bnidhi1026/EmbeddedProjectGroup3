@@ -18,3 +18,8 @@ Connect server and board to same wifi (Default right now is "Fabis Phone" with p
 ## Smart 7688 Board
 
 - Connect LED to port S1 (gpio496)
+- - To program arduino, make sure the micro-usb is plugged in the "PWR/MCU" port of the board
+- For Arduino IDE setup, import
+file://path/to/package_mtk_linkit_smart_7688_index.json
+  - in this file change to file so it references file://path/to/LinkIt.zip
+  - then under Board-Manager, install and finally select Smart 7688 Board to programm the atmega32u4
